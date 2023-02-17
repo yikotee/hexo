@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="zh-CN">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<title>陈可微</title>
+<meta name="author" content="">
+<meta name="copyright" content="">
+
+<link rel="shortcut icon" href="/img/logo.png">
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="陈可微">
+<meta property="og:url" content="http://example.com/404.html">
+<meta property="og:site_name" content="陈可微">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/svg/left1.svg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/svg/left1.svg">
+
+
+<link href="/third-party/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+<script src="/js/utlis.js"></script>
+<script>
+  (function() {
+    var html = mengd.$query('html')
+    var isDark = localStorage.isDark === 'true'
+    if (isDark) html.setAttribute('theme', 'dark')
+    else html.removeAttribute('theme')
+  })()
+</script>
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+     
+    
+
+<script>
+  var $config = {
+      CDN: {
+        fancyboxJs: "/third-party/js/fancybox.js",
+        fancyboxCss: "/third-party/css/fancybox.css"
+      },
+      
+      searchFile: "/search.xml",
+      
+      
+      codeBlockExpand: {
+        enable: true,
+        height: 400,
+        scrollTop: 200
+      }
+      
+    }
+</script>
+
+    
+
+
+    <div id="body-wrap">
+        
+
+        <header id="header">
+    <div class="header-author">
+        <a href="/" class="author">
+            <img src="/svg/left1.svg" alt="" class="author-avatar">
+			<!--<i class="fa fa-caret-left" style="font-size:24px;color:blank"></i>-->
+            <div class="author-name">
+                
+            </div>
+        </a>
+    </div>
+    <div class="header-description">
+        <p>
+            
+        </p>
+        <div class="header-icon">
+            
+                <i class="fas fa-search search-btn"></i>
+            
+            
+                <a target="_blank" rel="noopener" href="https://github.com/yikotee"><i class="fab fa-github"></i></a>
+            
+                <a href="mailto:yikotee@mail.nankai.edu.cn"><i class="fa fa-envelope"></i></a>
+            
+                <a href="/archives"><i class="fa fa-folder"></i></a>
+            
+			
+        </div>
+    </div>
+</header>
+        <main id="main">
+            <style>
+  #page {
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #body-wrap .main {
+    height: calc(100vh - 70px);
+    align-items: center;
+  }
+
+  #error-warp {
+    height: 400px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    background: var(--main-bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #error {
+    color: var(--error-text-color);
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #error::before,
+  #error::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: attr(content);
+  }
+
+  #error::before {
+    left: 1px;
+    text-shadow: -1px 0 red;
+    background: var(--main-bg);
+    animation: noise-before 1s ease-in infinite;
+  }
+
+  #error::after {
+    left: -2px;
+    text-shadow: -1px 0 blue;
+    background: var(--main-bg);
+    animation: noise-after 1.5s ease-out infinite;
+  }
+
+  .back-home {
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1.5rem;
+    background: var(--main);
+    color: #fff;
+  }
+
+  .back-home:hover {
+    color: #fff !important;
+  }
+
+  @media screen and (max-width: 900px) {
+    #error-warp {
+      margin: 0 10px;
+    }
+  }
+
+  @keyframes noise-before {
+    0% {
+      clip-path: inset(11% 0 33% 0);
+    }
+
+    20% {
+      clip-path: inset(99% 0 44% 0);
+    }
+
+    40% {
+      clip-path: inset(33% 0 55% 0);
+    }
+
+    60% {
+      clip-path: inset(66% 0 11% 0);
+    }
+
+    80% {
+      clip-path: inset(22% 0 55% 0);
+    }
+
+    100% {
+      clip-path: inset(33% 0 77% 0);
+    }
+  }
+
+  @keyframes noise-after {
+    0% {
+      clip-path: inset(22% 0 44% 0);
+    }
+
+    20% {
+      clip-path: inset(77% 0 11% 0);
+    }
+
+    40% {
+      clip-path: inset(33% 0 55% 0);
+    }
+
+    60% {
+      clip-path: inset(66% 0 88% 0);
+    }
+
+    80% {
+      clip-path: inset(22% 0 66% 0);
+    }
+
+    100% {
+      clip-path: inset(33% 0 77% 0);
+    }
+  }
+</style>
+<div id="error-warp">
+  <div id="error" content="404 Not Found">404 Not Found</div>
+  <a href="/" class="back-home">返回首页</a>
+</div>
+
+        </main>
+    </div>
+    <section id="rightside">
+    <div class="rightside-item">
+
+         
+        
+        
+
+
+         
+         
+        <a href="javascript:void(0);" id="darkmode" title="深色/浅色 ">
+            <i class="fas fa-moon"></i>
+        </a>
+         
+
+
+        
+
+
+        <a href="#" title="回到顶部">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</section>
+    
+
+<footer class="footer" id="footer">
+  <div class="copyright">
+    &copy; 2020 - 2023
+    <!--<i class="fas fa-fan"></i>-->
+	<i class="fa fa-cog fa-spin"></i>
+	<!--<i class="ningmeng"><img src="/svg/ningmeng-.svg"></i>-->
+    
+  </div>
+  <!--<div class="framework-info">
+    <span>框架</span>
+    <a href="https://hexo.io" target="_blank">Hexo</a>
+    <span class="footer-separator">|</span>
+    <span>主题 </span>
+    <a href="https://github.com/lete114/hexo-theme-MengD" target="_blank">MengD.(萌典) </a>
+  </div>-->
+  <div class="custom-text"></div>
+</footer>
+    <div id="mask" onclick="closeAll()"></div>
+    
+    <div id="local-search">
+        <div id="local-search-title">本地搜索 </div>
+        <input id="local-search-input" autocomplete="off" placeholder="搜索文章"
+            type="text">
+        <hr>
+        <div id="local-search-result"></div>
+        <span class="search-close-button"><i class="fas fa-times"></i></span>
+    </div>
+    <script src="/js/search.js"></script>
+
+    <script src="/js/main.js"></script>
+    
+<script>
+  var originTitle = document.title;
+  var titleTime;
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+      clearTimeout(titleTime);
+    } else {
+      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+      titleTime = setTimeout(function() {
+        document.title = originTitle;
+      }, 2000);
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  mengd.getScript('/third-party/js/prefetch-page.js', () => {
+    const requestIdleCa = requestIdleCallback
+    if (requestIdleCa) {
+      requestIdleCa(() => {
+        prefetch({"delay":1000,"threshold":25,"customs":["/search.json"]})
+      })
+    } else {
+      setTimeout(() => {
+        prefetch({"delay":1000,"threshold":25,"customs":["/search.json"]})
+      }, 3000);
+    }
+  })
+</script>
+
+</body>
+
+</html>
