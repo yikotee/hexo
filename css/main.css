@@ -71,7 +71,7 @@ body {
 }
 body a {
   text-decoration: none;
-  color: #00c4b6;
+  color: #87cefa;
   transition: all 0.5s;
 }
 body p {
@@ -877,8 +877,46 @@ footer .fa-fan {
   -webkit-animation: IH 1s linear infinite;
   animation: IH 1s linear infinite;
 }
+footer #xiaohui {
+  animation-name: turnZ;
+  animation-duration: 1.94052s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@-moz-keyframes turnZ {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes turnZ {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-o-keyframes turnZ {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes turnZ {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
 :root {
-  --main: #e58a8a;
+  --main: #87cefa;
   --body-bg: #f7f7f7;
   --text-color: #333;
   --main-bg: #fff;
@@ -889,7 +927,7 @@ footer .fa-fan {
   --code-wrap-bg: #1c1c1c;
   --blockquote-color: #6a737d;
   --color-block: #f9f9f9;
-  --adorn: #f0f0f0;
+  --adorn: #d3d3d3;
   --error-text-color: #333;
   --box-shadow: #eee;
 }
